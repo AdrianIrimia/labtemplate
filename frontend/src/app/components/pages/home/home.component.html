@@ -1,0 +1,89 @@
+<div class="scroll-bar">
+
+<div class="container">
+  <h1 class="colorRed">
+                     Welcome !
+  </h1>
+</div>
+
+<!--
+    <p-dataTable class="space-pt-tabel" [value]="tabels" selectionMode="single" [(selection)]="selectedTabel"  [contextMenu]="cm">
+      <p-column field="idFilm" header="Id Film"  [sortable]="true"></p-column>
+      <p-column field="denumireFilm" header="Denumire Film"   [sortable]="true"></p-column>
+      <p-column field="dataFilm" header="Data Film" [sortable]="true"></p-column>
+      <p-column field="oraFilm" header="Ora Film" [sortable]="true"></p-column>
+      <p-column field="pretBilet" header="Pret Bilet" [sortable]="true"></p-column>
+    </p-dataTable>
+
+<p-contextMenu #cm [model]="items"></p-contextMenu>
+
+-->
+
+
+<h2>~~Tabel cu filmele ce vor  aparea anul acesta : </h2>
+
+  <div class="divTable">
+    <div class="divTableBody">
+      <div class="divTableRow">
+        <div class="divTableCell">Id Film</div>
+        <div class="divTableCell">Denumire Film</div>
+        <div class="divTableCell">Data Film</div>
+        <div class="divTableCell">Ora Film</div>
+        <div class="divTableCell">Pret bilet</div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="1a">{{homeTab[0].idFilm}}</div>
+        <div class="divTableCell" id="1b" title="1h 23 min"><a href="./detali">{{homeTab[0].denumireFilm}}</a></div>
+        <div class="divTableCell" id="1c">{{homeTab[0].dataFilm}}</div>
+        <div class="divTableCell" id="1d">{{homeTab[0].oraFilm}}</div>
+        <div class="divTableCell" id="1e">{{homeTab[0].pretBilet}}</div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="2a">{{homeTab[1].idFilm}}</div>
+        <div class="divTableCell" id="2b"title="1h 13 min"><a href="./detali">{{homeTab[1].denumireFilm}}</a></div>
+        <div class="divTableCell" id="2c">{{homeTab[1].dataFilm}}</div>
+        <div class="divTableCell" id="2d">{{homeTab[1].oraFilm}}</div>
+        <div class="divTableCell" id="2e">{{homeTab[1].pretBilet}}</div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="3a">{{homeTab[2].idFilm}}</div>
+        <div class="divTableCell" id="3b"title="1h 36 min"><a href="./detali">{{homeTab[2].denumireFilm}}</a></div>
+        <div class="divTableCell" id="3c">{{homeTab[2].dataFilm}}</div>
+        <div class="divTableCell" id="3d">{{homeTab[2].oraFilm}}</div>
+        <div class="divTableCell" id="3e">{{homeTab[2].pretBilet}}</div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="4a">{{homeTab[3].idFilm}}</div>
+        <div class="divTableCell" id="4b"title="1h 15 min"><a href="./detali">{{homeTab[3].denumireFilm}}</a></div>
+        <div class="divTableCell" id="4c">{{homeTab[3].dataFilm}}</div>
+        <div class="divTableCell" id="4d">{{homeTab[3].oraFilm}}</div>
+        <div class="divTableCell" id="4e">{{homeTab[3].pretBilet}}</div>
+      </div>
+
+      <div class="divTableRow">
+        <div class="divTableCell" id="5a">{{homeTab[4].idFilm}}</div>
+        <div class="divTableCell" id="5b" title="1h 27 min"><a href="./detali">{{homeTab[4].denumireFilm}}</a></div>
+        <div class="divTableCell" id="5c">{{homeTab[4].dataFilm}}</div>
+        <div class="divTableCell" id="5d">{{homeTab[4].oraFilm}}</div>
+        <div class="divTableCell" id="5e">{{homeTab[4].pretBilet}}</div>
+      </div>
+
+    </div>
+  </div>
+
+
+<br><br>
+
+<img src="../../../../assets/semantic/themes/default/assets/images/6.jpg" alt="Sala Cinema" style="width:450px;height:400px;margin-left: 40px">
+<img src="../../../../assets/semantic/themes/default/assets/images/7.jpg" alt="Bilet" style="width:400px;height:500px;margin-left: 140px">
+
+
+
+
+
+
+</div>
